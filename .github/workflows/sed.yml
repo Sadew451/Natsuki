@@ -9,11 +9,11 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "SnowGirl"
-          replace: "EzilaXBotV"
+          replace: "Natsuki"
       - name: Pull All Updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Welcome to EzilaX Bot'
+          commit_message: 'Welcome to TheNatsukiBot'
           commit_options: '--no-verify'
           repository: .
           commit_user_name: Sadew451
