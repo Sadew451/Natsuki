@@ -1,0 +1,20 @@
+
+
+telegram:
+  api_id: "1317300" # api id and hash which you got from telegram when registering a new app (https://my.telegram.org/apps)
+  api_hash: "c5175cf65c5924982ea4b54981a90d0d"
+bot:
+  chat_ids: # telegram chat ids of the chats in which deleted accounts should be kicked. Use the string format, no numbers
+    - "1234"
+    - "5678"
+  sleep_per_chat: 10 # time in seconds to sleep after each chat
+  sleep_after_kick: 20 # time in seconds to sleep after each kick
+notifications:
+  notify_before: yes # notify the users below when the program starts?
+  notify_after: yes # notify the users below and send them a report when the program finished?
+  notify_before_ids: # ids of the users to dm when the program starts
+    - 11111
+    - 22222
+  notify_after_ids: #ids of the users to dm when the programm finishes
+    - 33333
+    - 44444
