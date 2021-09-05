@@ -2,9 +2,9 @@ import speedtest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from EzilaXBotV import DEV_USERS, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import dev_plus
+from Natsuki import DEV_USERS, dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
+from Natsuki.modules.helper_funcs.chat_status import dev_plus
 
 
 def convert(speed):
