@@ -16,8 +16,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from EzilaXBotV.events import register
-from EzilaXBotV.utils import progress
+from Natsuki.events import register
+from Natsuki.utils import progress
 
 try:
     from youtubesearchpython import SearchVideos
