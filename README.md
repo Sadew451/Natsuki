@@ -83,8 +83,5 @@ Anything missing kindly let us know at [Natsuki Support](https://t.me/NatsukiSup
 #### • DAMANTHA JASINGHA  »»  <a href="https://github.com/DAMANTHA126" alt="DAMANTHAJASINGHA"> <img src="https://img.shields.io/badge/DAMANTHA126-82CAFA?logo=github" /></a> (DEV)
 
 
-> This project exists thanks to these awesome developers and their codes and contributions.
-
-<a href="https://github.com/Sadew451/Natsuki/graphs/contributors"><img src="https://opencollective.com/sadew451/natsuki/contributors.svg?width=890&button=false" /></a>
 
 
