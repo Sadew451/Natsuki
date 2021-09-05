@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import scoped_session, sessionmaker
 
-from EzilaXBotV import DB_URI
+from Natsuki import DB_URI
 
 
 def start() -> scoped_session:
