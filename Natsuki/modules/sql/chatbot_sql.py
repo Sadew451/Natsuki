@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String
 
-from EzilaXBotV.modules.sql import BASE, SESSION
+from Natsuki.modules.sql import BASE, SESSION
 
 
 class ChatbotChats(BASE):
