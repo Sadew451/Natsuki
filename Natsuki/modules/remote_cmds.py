@@ -2,15 +2,15 @@ from telegram import ChatPermissions, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki import dispatcher
+from Natsuki.modules.helper_funcs.chat_status import (
     bot_admin,
     is_bot_admin,
     is_user_ban_protected,
     is_user_in_chat,
 )
-from EzilaXBotV.modules.helper_funcs.extraction import extract_user_and_text
-from EzilaXBotV.modules.helper_funcs.filters import CustomFilters
+from Natsuki.modules.helper_funcs.extraction import extract_user_and_text
+from Natsuki.modules.helper_funcs.filters import CustomFilters
 
 RBAN_ERRORS = {
     "User is an administrator of the chat",
