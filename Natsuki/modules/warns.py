@@ -25,25 +25,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from EzilaXBotV import TIGERS, WOLVES, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki import TIGERS, WOLVES, dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
+from Natsuki.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from EzilaXBotV.modules.helper_funcs.extraction import (
+from Natsuki.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from EzilaXBotV.modules.helper_funcs.filters import CustomFilters
-from EzilaXBotV.modules.helper_funcs.misc import split_message
-from EzilaXBotV.modules.helper_funcs.string_handling import split_quotes
-from EzilaXBotV.modules.log_channel import loggable
-from EzilaXBotV.modules.sql import warns_sql as sql
+from Natsuki.modules.helper_funcs.filters import CustomFilters
+from Natsuki.modules.helper_funcs.misc import split_message
+from Natsuki.modules.helper_funcs.string_handling import split_quotes
+from Natsuki.modules.log_channel import loggable
+from Natsuki.modules.sql import warns_sql as sql
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
