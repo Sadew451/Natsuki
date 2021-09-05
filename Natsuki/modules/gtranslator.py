@@ -3,8 +3,8 @@ from googletrans import LANGUAGES, Translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
+from Natsuki import dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
