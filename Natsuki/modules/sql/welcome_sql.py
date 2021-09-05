@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-from EzilaXBotV.modules.helper_funcs.msg_types import Types
-from EzilaXBotV.modules.sql import BASE, SESSION
+from Natsuki.modules.helper_funcs.msg_types import Types
+from Natsuki.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"
