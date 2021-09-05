@@ -22,8 +22,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import EzilaXBotV.modules.sql.welcome_sql as sql
-from EzilaXBotV import (
+import Natsuki.modules.sql.welcome_sql as sql
+from Natsuki import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -35,18 +35,18 @@ from EzilaXBotV import (
     dispatcher,
     sw,
 )
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from EzilaXBotV.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from EzilaXBotV.modules.helper_funcs.msg_types import get_welcome_type
-from EzilaXBotV.modules.helper_funcs.string_handling import (
+from Natsuki.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Natsuki.modules.helper_funcs.msg_types import get_welcome_type
+from Natsuki.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from EzilaXBotV.modules.log_channel import loggable
-from EzilaXBotV.modules.sql.global_bans_sql import is_user_gbanned
+from Natsuki.modules.log_channel import loggable
+from Natsuki.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",
