@@ -3,7 +3,7 @@ import os
 from pyrogram import filters
 from telegraph import upload_file
 
-from EzilaXBotV import pbot as app
+from Natsuki import pbot as app
 
 
 @app.on_message(filters.command("telegraph"))
@@ -40,7 +40,7 @@ async def telegraph(client, message):
         await message.reply(message, text=document)
     else:
         await message.reply(
-            f"**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}**",
+            f"**Uploaded To Telegraph!\n\n✨ https://telegra.ph{response[0]}**",
             disable_web_page_preview=True,
         )
     finally:
