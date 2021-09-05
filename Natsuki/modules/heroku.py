@@ -1,7 +1,7 @@
-
 import asyncio
 import math
 import os
+import sys
 
 import heroku3
 import requests
@@ -159,8 +159,8 @@ async def dyno_usage(dyno):
     await asyncio.sleep(1.5)
 
     return await die.edit(
-        "**Dyno Usage**:\n\n"
-        f" -> `Dyno usage for`  **{HEROKU_APP_NAME}**:\n"
+        "**Dyno Usage 📊**:\n\n"
+        f" -> `Dyno usage for`  **Rose bot **:\n"
         f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
@@ -169,24 +169,49 @@ async def dyno_usage(dyno):
         f"**|**  [`{percentage}`**%**]"
     )
 
-
 @register(pattern="^/restart$")
-async def _(event):
-    if event.fwd_from:
+async def restart_bot(dyno):
+    if dyno.fwd_from:
         return
-    if event.sender_id == OWNER_ID:
+    if dyno.sender_id == OWNER_ID:
         pass
     else:
+        return await dyno.reply("Rosebot will be restarted..."
+         )
+    args = [sys.executable, "-m", "Natsuki"]
+    os.execl(sys.executable, *args)
+
+@register(pattern="^/update$")
+async def upgrade(dyno):
+    if dyno.fwd_from:
         return
-    await event.edit("**Restarted Vecor 👀**")
-    try:
-        herokuHelper = HerokuHelper(HEROKU_APP_NAME, HEROKU_API_KEY)
-        herokuHelper.restart()
-    except:
-        await borg.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-
-
+    if dyno.sender_id == OWNER_ID:
+        pass
+    else:
+        return await dyno.reply(
+            "`Checking for updates, please wait....`"
+        )
+    m = await dyno.reply("**Your bot is being deployed, please wait for it to complete.\nIt may take upto 5 minutes **")
+    proc = await asyncio.create_subprocess_shell(
+        "git pull --no-edit",
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.STDOUT,
+    )
+    stdout = (await proc.communicate())[0]
+    if proc.returncode == 0:
+        if "Already up to date." in stdout.decode():
+            await m.edit_text("There's nothing to upgrade.")
+        else:
+            await m.edit_text("Restarting...")
+            args = [sys.executable, "-m", "Natsuki"]
+            os.execl(sys.executable, *args)
+    else:
+        await m.edit_text(
+            f"Upgrade failed (process exited with {proc.returncode}):\n{stdout.decode()}"
+        )
+        proc = await asyncio.create_subprocess_shell("git merge --abort")
+        await proc.communicate()
+        
         
 @register(pattern="^/logs$")
 async def _(dyno):
@@ -211,7 +236,7 @@ async def _(dyno):
         dyno.chat_id,
         "logs.txt",
         reply_to=dyno.id,
-        caption="EzilaX Bot Logz.",
+        caption="@TheNatsukiBot Logz.",
     )
 
     await asyncio.sleep(5)
