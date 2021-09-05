@@ -5,8 +5,8 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from EzilaXBotV import DEV_USERS, telethn
-from EzilaXBotV.modules.helper_funcs.telethn.chatstatus import (
+from Natsuki import DEV_USERS, telethn
+from Natsuki.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
