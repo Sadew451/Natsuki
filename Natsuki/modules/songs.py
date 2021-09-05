@@ -5,8 +5,8 @@ from pyrogram import filters
 from pytube import YouTube
 from youtubesearchpython import VideosSearch
 
-from EzilaXBotV import LOGGER, pbot
-from EzilaXBotV.utils.uut import get_arg
+from Natsuki import LOGGER, pbot
+from Natsuki.utils.uut import get_arg
 
 
 def yt_search(song):
