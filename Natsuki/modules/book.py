@@ -2,7 +2,7 @@
 # Copyright (C) 2021 Sadew Jayasekara
 # Copyright (C) 2021 TeamSDBOTs
 
-# This file is part of EzilaX (Telegram Bot)
+# This file is part of Natsuki (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -25,7 +25,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from EzilaXBotV import telethn as tbot
+from Natsuki import telethn as tbot
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))
 async def _(event):
@@ -64,14 +64,14 @@ async def _(event):
                 f.write("\n" + title)
                 f.write("\nBook link:- " + link + "\n\n")
 
-        f.write("By @EzilaXBot .")
+        f.write("By @TheNatsukiBot ❤.")
         f.close()
-        caption = "A collabration with Friday.\n Join Support @EZILA_SUPPORT"
+        caption = "A collabration with Friday.\n Join Support @NatsukiSupport_Official ❤"
 
         await tbot.send_file(
             event.chat_id,
             "book.txt",
-            caption=f"**BOOKS GATHERED SUCCESSFULLY!\n\nBY @EzilaXBot. JOIN THE SUPPORT @EZILA_SUPPORT.**",
+            caption=f"**Book Gatherd Succesfully!\n\nBY @TheNatsukiBot ❤. JOIN THE SUPPORT @NatsukiSupport_Official.**",
         )
         os.remove("book.txt")
         await KkK.delete()
