@@ -3,9 +3,9 @@ import json
 import requests
 from telegram.ext import CommandHandler, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.helper_funcs.alternate import send_message
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
+from Natsuki import dispatcher
+from Natsuki.modules.helper_funcs.alternate import send_message
+from Natsuki.modules.helper_funcs.chat_status import user_admin
 
 
 @run_async
