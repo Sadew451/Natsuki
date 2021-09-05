@@ -2,8 +2,8 @@ from geopy.geocoders import Nominatim
 from telegram import Location, ParseMode
 from telegram.ext import CommandHandler, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
+from Natsuki import dispatcher
+from Natsuki.modules.helper_funcs.chat_status import user_admin
 
 GMAPS_LOC = "https://maps.googleapis.com/maps/api/geocode/json"
 
