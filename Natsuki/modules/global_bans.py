@@ -14,8 +14,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import EzilaXBotV.modules.sql.global_bans_sql as sql
-from EzilaXBotV import (
+import Natsuki.modules.sql.global_bans_sql as sql
+from Natsuki import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -29,17 +29,17 @@ from EzilaXBotV import (
     dispatcher,
     sw,
 )
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from EzilaXBotV.modules.helper_funcs.extraction import (
+from Natsuki.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from EzilaXBotV.modules.helper_funcs.misc import send_to_list
-from EzilaXBotV.modules.sql.users_sql import get_user_com_chats
+from Natsuki.modules.helper_funcs.misc import send_to_list
+from Natsuki.modules.sql.users_sql import get_user_com_chats
 
 GBAN_ENFORCE_GROUP = 6
 
