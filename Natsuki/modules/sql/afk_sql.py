@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, UnicodeText
 
-from EzilaXBotV.modules.sql import BASE, SESSION
+from Natsuki.modules.sql import BASE, SESSION
 
 
 class AFK(BASE):
