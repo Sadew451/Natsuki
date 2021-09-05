@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 # By @TroJanzHEX
-from EzilaXBotV.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from Natsuki.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
@@ -18,7 +18,7 @@ from EzilaXBotV.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-erro
     mix,
     normal_blur,
 )
-from EzilaXBotV.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
+from Natsuki.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
     cartoon,
     circle_with_bg,
     circle_without_bg,
@@ -28,13 +28,13 @@ from EzilaXBotV.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-erro
     sepia_mode,
     sticker,
 )
-from EzilaXBotV.Addons.ImageEditor.edit_3 import (  # pylint:disable=import-error
+from Natsuki.Addons.ImageEditor.edit_3 import (  # pylint:disable=import-error
     black_border,
     blue_border,
     green_border,
     red_border,
 )
-from EzilaXBotV.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
+from Natsuki.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
     inverted,
     removebg_plain,
     removebg_sticker,
@@ -44,7 +44,7 @@ from EzilaXBotV.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-erro
     rotate_270,
     round_sticker,
 )
-from EzilaXBotV.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
+from Natsuki.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
     normalglitch_1,
     normalglitch_2,
     normalglitch_3,
@@ -56,7 +56,7 @@ from EzilaXBotV.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-erro
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from EzilaXBotV.services.pyrogram import pbot as Client
+from Natsuki.services.pyrogram import pbot as Client
 
 lel = 00000000
 # pylint:disable=import-error
