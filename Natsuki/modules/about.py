@@ -1,5 +1,5 @@
 __help__ = """
-** EzilaXBotV - A Powerful Telegram Group Manager 🎶 **
+** ✨ Natsuki - A Powerful Telegram Group Manager ✨ **
 
 Powerful Abilities
 
@@ -9,6 +9,8 @@ Powerful Abilities
 
 • Youtube Downloader 🎵
 
-Developer [Sadew🇱🇰](https://t.me/Darkridersslk)
+• Channel Music Play 🎵
+
+Developer [SADEW JAYASEKARA](https://t.me/Darkridersslk)
 """
-__mod_name__ = "About"
+__mod_name__ = "About ⚡"
