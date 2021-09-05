@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import EzilaXBotV.modules.sql.approve_sql as sql
-from EzilaXBotV import DRAGONS, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
-from EzilaXBotV.modules.helper_funcs.extraction import extract_user
-from EzilaXBotV.modules.log_channel import loggable
+import Natsuki.modules.sql.approve_sql as sql
+from Natsuki import DRAGONS, dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
+from Natsuki.modules.helper_funcs.chat_status import user_admin
+from Natsuki.modules.helper_funcs.extraction import extract_user
+from Natsuki.modules.log_channel import loggable
 
 
 @loggable
