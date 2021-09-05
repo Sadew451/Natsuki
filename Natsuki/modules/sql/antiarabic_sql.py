@@ -3,7 +3,7 @@ from typing import Union
 
 from sqlalchemy import Boolean, Column, String
 
-from EzilaXBotV.modules.sql import BASE, SESSION
+from Natsuki.modules.sql import BASE, SESSION
 
 
 class AntiArabicChatSettings(BASE):
