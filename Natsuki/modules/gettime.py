@@ -5,8 +5,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBotV import TIME_API_KEY, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
+from Natsuki import TIME_API_KEY, dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
 
 
 def generate_time(to_find: str, findtype: List[str]) -> str:
