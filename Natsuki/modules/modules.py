@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from EzilaXBotV import dispatcher, telethn
-from EzilaXBotV.__main__ import (
+from Natsuki import dispatcher, telethn
+from Natsuki.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -16,7 +16,7 @@ from EzilaXBotV.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from EzilaXBotV.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Natsuki.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 
 
 @run_async
