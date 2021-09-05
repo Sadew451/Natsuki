@@ -27,11 +27,10 @@
 # 🏃‍♂️ Easy Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Natsuki.git)
 
-[Generate String Session](https://replit.com/@SpEcHiDe/GenerateStringSession)  << Select telethon
 
 <a href="https://www.youtube.com/channel/UCdSBUUQ1v0_IIElBR_1B72w"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
-# ❤️ Support
+# ⚡ Support
 <a href="https://t.me/NatsukiSupport_Official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/Natsuki_updates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
