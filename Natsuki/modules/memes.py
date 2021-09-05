@@ -9,8 +9,8 @@ from PIL import Image
 from spongemock import spongemock
 from telegram.ext import run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
+from Natsuki import dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
