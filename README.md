@@ -1,4 +1,4 @@
-# Natsuki-v1.1
+# Natsuki
 
 # 🏃‍♂️ Easy Deploy 
 
