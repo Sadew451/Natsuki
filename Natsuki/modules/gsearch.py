@@ -4,7 +4,7 @@ from telethon import *
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from EzilaXBotV.events import register
+from Natsuki.events import register
 
 
 async def is_register_admin(chat, user):
