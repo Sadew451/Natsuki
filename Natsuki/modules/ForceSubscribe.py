@@ -26,9 +26,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from EzilaXBotV import DRAGONS as SUDO_USERS
-from EzilaXBotV import pbot
-from EzilaXBotV.modules.sql import forceSubscribe_sql as sql
+from Natsuki import DRAGONS as SUDO_USERS
+from Natsuki import pbot
+from Natsuki.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
