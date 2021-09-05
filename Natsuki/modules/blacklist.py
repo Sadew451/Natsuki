@@ -6,17 +6,17 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import EzilaXBotV.modules.sql.blacklist_sql as sql
-from EzilaXBotV import LOGGER, dispatcher
-from EzilaXBotV.modules.connection import connected
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import send_message, typing_action
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from EzilaXBotV.modules.helper_funcs.extraction import extract_text
-from EzilaXBotV.modules.helper_funcs.misc import split_message
-from EzilaXBotV.modules.helper_funcs.string_handling import extract_time
-from EzilaXBotV.modules.log_channel import loggable
-from EzilaXBotV.modules.warns import warn
+import Natsuki.modules.sql.blacklist_sql as sql
+from Natsuki import LOGGER, dispatcher
+from Natsuki.modules.connection import connected
+from Natsuki.modules.disable import DisableAbleCommandHandler
+from Natsuki.modules.helper_funcs.alternate import send_message, typing_action
+from Natsuki.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Natsuki.modules.helper_funcs.extraction import extract_text
+from Natsuki.modules.helper_funcs.misc import split_message
+from Natsuki.modules.helper_funcs.string_handling import extract_time
+from Natsuki.modules.log_channel import loggable
+from Natsuki.modules.warns import warn
 
 BLACKLIST_GROUP = 11
 
