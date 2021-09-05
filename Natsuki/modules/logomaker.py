@@ -81,16 +81,16 @@ async def lego(event):
        return
     else:
        pass
- await event.reply("Creating your logo...wait!")
+ await event.reply("Creating your logo...wait...✨")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/blackbg.jpg')
+    img = Image.open('./Natsuki/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./Natsuki/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -98,7 +98,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "NatsukiLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
@@ -118,16 +118,16 @@ async def lego(event):
        return
     else:
        pass
- await event.reply("Creating your logo...wait!")
+ await event.reply("Creating your logo...wait...✨")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/blackbg.jpg')
+    img = Image.open('./Natsuki/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Chopsic.otf", 950)
+    font = ImageFont.truetype("./Natsuki/resources/Chopsic.otf", 950)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -135,7 +135,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "NatsukiLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
@@ -156,16 +156,16 @@ async def lego(event):
        return
     else:
        pass
- await event.reply("Creating your logo...wait!")
+ await event.reply("Creating your logo...wait...✨")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/blackbg.jpg')
+    img = Image.open('./Natsuki/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Maghrib.ttf", 1000)
+    font = ImageFont.truetype("./Natsuki/resources/Maghrib.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -173,7 +173,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="red", stroke_width=0, stroke_fill="red")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "NatsukiLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
@@ -194,16 +194,16 @@ async def lego(event):
        return
     else:
        pass
- await event.reply("Creating your logo...wait!")
+ await event.reply("Creating your logo...wait...✨")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/pandalogo.jpg')
+    img = Image.open('./Natsuki/resources/pandalogo.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Chopsic.otf", 1000)
+    font = ImageFont.truetype("./Natsuki/resources/Chopsic.otf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -211,7 +211,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="yellow", stroke_width=0, stroke_fill="white")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "NatsukiLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @TheNatsukiBot ❤️")
     if os.path.exists(fname2):
