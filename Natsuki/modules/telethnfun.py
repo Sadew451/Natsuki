@@ -9,8 +9,8 @@ from bing_image_downloader import downloader
 from requests import get, post
 from telethon.tl import functions, types
 
-from EzilaXBotV import telethn as client
-from EzilaXBotV.events import register
+from Natsuki import telethn as client
+from Natsuki.events import register
 
 
 def progress(current, total):
