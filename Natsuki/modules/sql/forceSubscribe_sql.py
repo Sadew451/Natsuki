@@ -16,7 +16,7 @@
 
 from sqlalchemy import Column, Numeric, String
 
-from EzilaXBotV.modules.sql import BASE, SESSION
+from Natsuki.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):
