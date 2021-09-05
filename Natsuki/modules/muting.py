@@ -5,20 +5,20 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from EzilaXBotV import LOGGER, TIGERS, dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki import LOGGER, TIGERS, dispatcher
+from Natsuki.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
     is_user_admin,
     user_admin,
 )
-from EzilaXBotV.modules.helper_funcs.extraction import (
+from Natsuki.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from EzilaXBotV.modules.helper_funcs.string_handling import extract_time
-from EzilaXBotV.modules.log_channel import loggable
+from Natsuki.modules.helper_funcs.string_handling import extract_time
+from Natsuki.modules.log_channel import loggable
 
 
 @run_async
