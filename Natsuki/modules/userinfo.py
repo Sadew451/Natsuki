@@ -13,8 +13,8 @@ from telethon import events
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-import EzilaXBotV.modules.sql.userinfo_sql as sql
-from EzilaXBotV import (
+import Natsuki.modules.sql.userinfo_sql as sql
+from Natsuki import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -25,14 +25,14 @@ from EzilaXBotV import (
     dispatcher,
     sw,
 )
-from EzilaXBotV import telethn as SaitamaTelethonClient
-from EzilaXBotV.__main__ import STATS, TOKEN, USER_INFO
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import sudo_plus
-from EzilaXBotV.modules.helper_funcs.extraction import extract_user
-from EzilaXBotV.modules.sql.afk_sql import check_afk_status, is_afk
-from EzilaXBotV.modules.sql.global_bans_sql import is_user_gbanned
-from EzilaXBotV.modules.sql.users_sql import get_user_num_chats
+from Natsuki import telethn as SaitamaTelethonClient
+from Natsuki.__main__ import STATS, TOKEN, USER_INFO
+from Natsuki.modules.disable import DisableAbleCommandHandler
+from Natsuki.modules.helper_funcs.chat_status import sudo_plus
+from Natsuki.modules.helper_funcs.extraction import extract_user
+from Natsuki.modules.sql.afk_sql import check_afk_status, is_afk
+from Natsuki.modules.sql.global_bans_sql import is_user_gbanned
+from Natsuki.modules.sql.users_sql import get_user_num_chats
 
 
 def no_by_per(totalhp, percentage):
