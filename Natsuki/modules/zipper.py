@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from EzilaXBotV import TEMP_DOWNLOAD_DIRECTORY
-from EzilaXBotV import telethn as client
-from EzilaXBotV.events import register
+from Natsuki import TEMP_DOWNLOAD_DIRECTORY
+from Natsuki import telethn as client
+from Natsuki.events import register
 
 
 async def is_register_admin(chat, user):
