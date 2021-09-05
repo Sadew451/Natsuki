@@ -3,8 +3,8 @@ import random
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
+from Natsuki import dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
 
 reactions = [
     "( ͡° ͜ʖ ͡°)",
