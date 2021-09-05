@@ -5,14 +5,14 @@ from telegram.utils.helpers import mention_html
 from telegram import ParseMode , Bot, Update
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 
-from EzilaXBotV import dispatcher, REDIS
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki import dispatcher, REDIS
+from Natsuki.modules.disable import DisableAbleCommandHandler
+from Natsuki.modules.helper_funcs.chat_status import (
     bot_admin,
     user_admin
 )
-from EzilaXBotV.modules.helper_funcs.extraction import extract_user_and_text
-from EzilaXBotV.modules.helper_funcs.alternate import typing_action
+from Natsuki.modules.helper_funcs.extraction import extract_user_and_text
+from Natsuki.modules.helper_funcs.alternate import typing_action
 
 
 
