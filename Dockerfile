@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/EzilaX
-RUN git clone -b shiken https://github.com/Sadew451/EzilaX /root/EzilaX
-WORKDIR /root/EzilaX
+# Copy Python Requirements to /root/Natsuki
+RUN git clone -b shiken https://github.com/Sadew451/Natsuki /root/Natsuki
+WORKDIR /root/Natsuki
 
-#Copy config file to /root/EzilaX/EzilaX
-COPY ./EzilaX/sample_config.py ./EzilaX/config.py* /root/EzilaX/EzilaX/
+#Copy config file to /root/Natsuki/Natsuki
+COPY ./Natsuki/sample_config.py ./Natsuki/config.py* /root/Natsuki/Natsuki/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","EzilaXBotV"]
+CMD ["python3","-m","Natsuki"]
