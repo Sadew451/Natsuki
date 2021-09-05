@@ -7,14 +7,14 @@ from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from EzilaXBotV import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from Natsuki import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
+from Natsuki.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from EzilaXBotV.modules.helper_funcs.extraction import extract_user
-from EzilaXBotV.modules.log_channel import gloggable
+from Natsuki.modules.helper_funcs.extraction import extract_user
+from Natsuki.modules.log_channel import gloggable
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "DaisyX/elevated_users.json")
 
