@@ -7,9 +7,9 @@ import traceback
 import aiohttp
 from telethon import events
 
-from EzilaXBotV import telethn as bot
-from EzilaXBotV.modules.urluploader import download_file
-from EzilaXBotV.utils.uputils import humanbytes, progress
+from Natsuki import telethn as bot
+from Natsuki.modules.urluploader import download_file
+from Natsuki.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
 
@@ -83,7 +83,7 @@ async def tsh(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by @EzilaXBot 👸"
+                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by @TheNatsukiBot ✨"
             )
         except Exception as e:
             traceback.print_exc()
@@ -118,7 +118,7 @@ async def tmp(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by @EzilaXBot 👸"
+                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by @TheNatsukiBot ✨"
             )
         except Exception as e:
             traceback.print_exc()
