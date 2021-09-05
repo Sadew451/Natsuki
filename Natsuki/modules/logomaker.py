@@ -1,6 +1,6 @@
-from EzilaXBotV.events import register
-from EzilaXBotV import OWNER_ID
-from EzilaXBotV import telethn as tbot
+from Natsuki.events import register
+from Natsuki import OWNER_ID
+from Natsuki import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 
