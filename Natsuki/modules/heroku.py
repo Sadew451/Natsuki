@@ -6,9 +6,9 @@ import os
 import heroku3
 import requests
 
-from EzilaXBotV import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
-from EzilaXBotV.events import register
-from EzilaXBotV.function.heroku_helper import HerokuHelper
+from Natsuki import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
+from Natsuki.events import register
+from Natsuki.function.heroku_helper import HerokuHelper
 
 heroku_api = "https://api.heroku.com"
 Heroku = heroku3.from_key(HEROKU_API_KEY)
