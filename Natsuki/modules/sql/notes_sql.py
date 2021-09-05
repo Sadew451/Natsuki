@@ -3,8 +3,8 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
-from EzilaXBotV.modules.helper_funcs.msg_types import Types
-from EzilaXBotV.modules.sql import BASE, SESSION
+from Natsuki.modules.helper_funcs.msg_types import Types
+from Natsuki.modules.sql import BASE, SESSION
 
 
 class Notes(BASE):
