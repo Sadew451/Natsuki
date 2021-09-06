@@ -368,7 +368,7 @@ def help_button(update, context):
 
 
 @run_async
-def AnkiVector_about_callback(update, context):
+def Natsuki_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
@@ -828,7 +828,7 @@ def main():
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
     about_callback_handler = CallbackQueryHandler(
-        AnkiVector_about_callback, pattern=r"aboutmanu_"
+        Natsuki_about_callback, pattern=r"aboutmanu_"
     )
 
     donate_handler = CommandHandler("donate", donate)
