@@ -368,7 +368,7 @@ def help_button(update, context):
 
 
 @run_async
-def Natsuki_about_callback(update, context):
+def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
