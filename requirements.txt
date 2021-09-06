@@ -66,4 +66,12 @@ opencv-python-headless
 Pillow
 envparse
 loguru
-heroku3
+heroku3==4.2.3
+
+#Search
+bs4
+html2text
+bing_image_downloader 
+search_engine_parser
+pornhub_api
+youtube_search
