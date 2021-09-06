@@ -22,6 +22,13 @@
 
 > Thanks to everyone who starred Natsuki, That is the greatest pleasure we have !
 
+# 🧙‍♀️ Deploy Guide
+Complete guide on deploying @DaisyXBot's clone on Heroku.
+
+[![Tutorial](https://yt-embed.herokuapp.com/embed?v=kvPKrTSF1Ic)](https://www.youtube.com/watch?v=kvPKrTSF1Ic)
+
+☆ Video by [SADEW JAYASEKARA](https://www.youtube.com/channel/UCdSBUUQ1v0_IIElBR_1B72w) ☆
+
 ### TeamNatsuki
 ## Avaiilable on Telegram as [@TheNatsukiBot](https://t.me/thenatsukibot)
 
