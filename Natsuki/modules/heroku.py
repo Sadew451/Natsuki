@@ -159,8 +159,8 @@ async def dyno_usage(dyno):
     await asyncio.sleep(1.5)
 
     return await die.edit(
-        "**Dyno Usage 📊**:\n\n"
-        f" -> `Dyno usage for`  **Rose bot **:\n"
+        "**Dyno Usage**:\n\n"
+        f" -> `Dyno usage for`  **{HEROKU_APP_NAME}**:\n"
         f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
@@ -169,6 +169,7 @@ async def dyno_usage(dyno):
         f"**|**  [`{percentage}`**%**]"
     )
 
+
 @register(pattern="^/restart$")
 async def restart_bot(dyno):
     if dyno.fwd_from:
@@ -176,10 +177,11 @@ async def restart_bot(dyno):
     if dyno.sender_id == OWNER_ID:
         pass
     else:
-        return await dyno.reply("Rosebot will be restarted..."
+        return await dyno.reply("ඔයාට වැඩ නෑ 😝"
          )
     args = [sys.executable, "-m", "Natsuki"]
     os.execl(sys.executable, *args)
+
 
 @register(pattern="^/update$")
 async def upgrade(dyno):
@@ -191,7 +193,7 @@ async def upgrade(dyno):
         return await dyno.reply(
             "`Checking for updates, please wait....`"
         )
-    m = await dyno.reply("**Your bot is being deployed, please wait for it to complete.\nIt may take upto 5 minutes **")
+    m = await dyno.reply("`Your bot is being deployed, please wait for it to complete.\nIt may take upto 5 minutes `")
     proc = await asyncio.create_subprocess_shell(
         "git pull --no-edit",
         stdout=asyncio.subprocess.PIPE,
@@ -211,8 +213,8 @@ async def upgrade(dyno):
         )
         proc = await asyncio.create_subprocess_shell("git merge --abort")
         await proc.communicate()
-        
-        
+    
+    
 @register(pattern="^/logs$")
 async def _(dyno):
     if dyno.fwd_from:
@@ -236,7 +238,7 @@ async def _(dyno):
         dyno.chat_id,
         "logs.txt",
         reply_to=dyno.id,
-        caption="@TheNatsukiBot Logz.",
+        caption="Natsuki Bot Logz.",
     )
 
     await asyncio.sleep(5)
