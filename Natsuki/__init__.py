@@ -92,6 +92,7 @@ if ENV:
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI")
     
     try:
         WHITELIST_CHATS = set(
