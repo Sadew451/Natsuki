@@ -68,3 +68,4 @@ envparse
 loguru
 heroku3==4.2.3
 apscheduler
+chatbase
