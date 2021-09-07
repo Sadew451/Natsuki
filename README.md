@@ -71,7 +71,7 @@ $ python3 -m Natsuki
     [-] OWNER_ID: ur id
     [-] MONGO_PORT: 27017
     [-] MONGO_DB': 'Natsuki
-[+] The DaisyX won't run without setting the mandatory vars.
+[+] The Natsuki won't run without setting the mandatory vars.
 ```
 
 ## Special Credits
