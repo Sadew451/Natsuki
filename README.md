@@ -28,7 +28,7 @@
 
 ## This Tutorial is Old Bot Video But its Ok You Can Use it ✨
 
-[![Tutorial](https://yt-embed.herokuapp.com/embed?v=kvPKrTSF1Ic)](https://www.youtube.com/watch?v=kvPKrTSF1Ic)
+[![Tutorial](https://yt-embed.herokuapp.com/embed?v=YyiO6jdPzXg)](https://youtu.be/YyiO6jdPzXg)
 
 ☆ Video by [SADEW JAYASEKARA](https://www.youtube.com/channel/UCdSBUUQ1v0_IIElBR_1B72w) ☆
 
