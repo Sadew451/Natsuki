@@ -2,7 +2,7 @@
 
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is public. 
 
-⚡ (It is no longer based on this source code. The completely rewritten bot available now on telegram)
+## ⚡ (It is no longer based on this source code. The completely rewritten bot available now on telegram)
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -62,9 +62,8 @@ $ python3 -m Natsuki
 ### Mandatory Vars 📒
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
-    [-] APP_ID:   You can get this value from https://my.telegram.org
-    [-] APP_HASH :   You can get this value from https://my.telegram.org
-    [-] STRINGSESSION : Your String Session, You can get this From Repl or BY running String_Gen File Locally
+    [-] APP_ID:   You can get this value from @SDMyTgOrgBot
+    [-] APP_HASH :   You can get this value from @SDMyTgOrgBot
     [-] MONGO_URI : Your Mongo DB DataBase Url. .
     [-] TOKEN: Get from botfarther
     [-] DATABASE_URL: from elephantsql.com
