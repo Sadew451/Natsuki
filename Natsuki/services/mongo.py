@@ -21,7 +21,7 @@ from odmantic import AIOEngine
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 
-from Natsuki import log
+from Natsuki import logger
 from Natsuki.config import get_int_key, get_str_key
 
 MONGO_URI = get_str_key("MONGO_URI")
