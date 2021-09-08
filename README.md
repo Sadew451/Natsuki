@@ -1,4 +1,4 @@
-<h1 align="center"><b>✨ Natsuki ✨</b></h1>
+<h1 align="center"><b>❤️ Natsuki ❤️</b></h1>
 
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is public. 
 
