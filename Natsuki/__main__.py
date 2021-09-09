@@ -66,7 +66,7 @@ PM_START_TEXT = """
 👋 Hello There, I'm @Natsuki.
 I'm a Powerfull Group Manager Bot With Cool Modules. Made By ✨ @TeamNatsuki
 Hit /help to Find My List Of Available Commands 🙋‍♂️
-feel free to add me to your groups!.
+
 """
 
 buttons = [
