@@ -27,7 +27,7 @@ from telethon.tl import functions
 
 from Natsuki.config import get_str_key
 from Natsuki.services.events import register
-from Natsuki.services.telethon import tbot
+from Natsuki.services.telethon import Hxy
 
 REM_BG_API_KEY = get_str_key("REM_BG_API_KEY", required=False)
 TEMP_DOWNLOAD_DIRECTORY = "./"
