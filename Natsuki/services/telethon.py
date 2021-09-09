@@ -26,4 +26,4 @@ Hxy = TelegramClient(
 )
 
 # Telethon
-Hey.start(bot_token=TOKEN)
+Hxy.start(bot_token=TOKEN)
