@@ -66,7 +66,7 @@ def register(**args):
             else:
                 pass
 
-        tbot.add_event_handler(wrapper, events.NewMessage(**args))
+        Hxy.add_event_handler(wrapper, events.NewMessage(**args))
         return wrapper
 
     return decorator
@@ -76,7 +76,7 @@ def chataction(**args):
     """Registers chat actions."""
 
     def decorator(func):
-        tbot.add_event_handler(func, events.ChatAction(**args))
+        Hxy.add_event_handler(func, events.ChatAction(**args))
         return func
 
     return decorator
@@ -86,7 +86,7 @@ def userupdate(**args):
     """Registers user updates."""
 
     def decorator(func):
-        tbot.add_event_handler(func, events.UserUpdate(**args))
+        Hxy.add_event_handler(func, events.UserUpdate(**args))
         return func
 
     return decorator
@@ -100,7 +100,7 @@ def inlinequery(**args):
         args["pattern"] = "(?i)" + pattern
 
     def decorator(func):
-        tbot.add_event_handler(func, events.InlineQuery(**args))
+        Hxy.add_event_handler(func, events.InlineQuery(**args))
         return func
 
     return decorator
@@ -110,7 +110,7 @@ def callbackquery(**args):
     """Registers inline query."""
 
     def decorator(func):
-        tbot.add_event_handler(func, events.CallbackQuery(**args))
+        Hxy.add_event_handler(func, events.CallbackQuery(**args))
         return func
 
     return decorator
