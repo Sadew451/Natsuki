@@ -1,19 +1,3 @@
-
-# This file is part of DaisyXBot (Telegram Bot)
-
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import logging
 
 from pyrogram import Client
@@ -25,7 +9,7 @@ TOKEN = get_str_key("TOKEN", required=True)
 API_ID = get_int_key("API_ID", required=True)
 API_HASH = get_str_key("API_HASH", required=True)
 session_name = TOKEN.split(":")[0]
-pbot = Client(
+Hxy = Client(
     session_name,
     api_id=API_ID,
     api_hash=API_HASH,
@@ -35,4 +19,4 @@ pbot = Client(
 # disable logging for pyrogram [not for ERROR logging]
 logging.getLogger("pyrogram").setLevel(level=logging.ERROR)
 
-pbot.start()
+Hxy.start()
