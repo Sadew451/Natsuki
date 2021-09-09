@@ -21,9 +21,9 @@ from Natsuki.config import get_int_key, get_str_key
 TOKEN = get_str_key("TOKEN", required=True)
 NAME = TOKEN.split(":")[0]
 
-Hxy = TelegramClient(
+pbot = TelegramClient(
     NAME, get_int_key("API_ID", required=True), get_str_key("API_HASH", required=True)
 )
 
 # Telethon
-Hxy.start(bot_token=TOKEN)
+pbot.start(bot_token=TOKEN)
