@@ -56,7 +56,7 @@ from Natsuki.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from Natsuki.services.pyrogram import pbot as Client
+from Natsuki.services.pyrogram import Hxy as Client
 
 lel = 00000000
 # pylint:disable=import-error
