@@ -5,7 +5,7 @@ from pathlib import Path
 from telethon import events
 
 from Natsuki.services.mongo import mongodb as db
-from Natsuki.services.telethon import tbot
+from Natsuki.services.telethon import Hxy
 
 gbanned = db.gban
 CMD_LIST = {}
