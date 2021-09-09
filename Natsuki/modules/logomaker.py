@@ -230,6 +230,6 @@ __help__ = """
  ❍ /logo text :  Create your logo with your name
  ❍ /biglogo text :  Create your logo Bigger Than `logo`
  ❍ /rlogo text :  Create your logo with your name
- ❍ /pandalogologo text :  Create your logo with your name
+ ❍ /pandalogo text :  Create your logo with your name
  """
 __mod_name__ = "Logo Maker"
