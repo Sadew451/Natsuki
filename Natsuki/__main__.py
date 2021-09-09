@@ -97,13 +97,9 @@ buttons = [
 NATSUKI_IMG = "https://telegra.ph/file/a6281ecaae26667a13716.png"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖]()
-⁜ /start: Starts me! You've probably already used this.
-⁜ /help: Click this, I'll let you know about myself!
-⁜ /donate: You can support my creater using this command.
-⁜ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+*ALL Commands :* [🤖]()
+✨ Every possibility of Natsuki is documentated here 🙋‍♀️
+🙋‍♀️ Click buttons to get /help Thanks.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -112,7 +108,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Sadew Jayasekara](t.me/Darkridersslk)"""
+Support them  [SADEW JAYASEKARA](t.me/Darkridersslk)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
