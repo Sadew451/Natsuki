@@ -13,7 +13,7 @@
 
 from sqlalchemy import Column, String
 
-from Natsuki.services.sql import BASE, SESSION
+from Natsuki.Natsuki.services.sql import BASE, SESSION
 
 
 class Nightmode(BASE):
