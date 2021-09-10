@@ -63,8 +63,7 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hello There, I'm Natsuki.
-I'm a Powerfull Group Manager Bot With Cool Modules. @TeamNatsuki
+👋 Hello There, I'm Natsuki.I'm a Powerfull Group Manager Bot With Cool Modules. @TeamNatsuki
 
 Guys. /help to Find My List Of Available Commands 🙋‍♂️
 
@@ -81,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="𝚂𝚘𝚞𝚛𝚌𝚎 🗒", url="Github.com/Sadew451"
+            text="Source 🗒", url="Github.com/Sadew451"
         ),
         InlineKeyboardButton(
             text="Command Help ❓", url="http://t.me/TheNatsukiBot?start=help"
@@ -89,7 +88,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 ➕",
+            text="➕ Add To Me Your Group ➕",
             url="t.me/TheNatsukiBot?startgroup=true",
         ),
     ],
