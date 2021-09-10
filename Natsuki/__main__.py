@@ -63,7 +63,7 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hello There, I'm Natsuki. I'm a Powerfull Group Manager Bot With Cool Modules. @TeamNatsuki
+👋 Hello There, I'm 𝗡𝗮𝘁𝘀𝘂𝗸𝗶. I'm a Powerfull Group Manager Bot With Cool Modules. @TeamNatsuki
 
 Guys. /help to Find My List Of Available Commands 🙋‍♂️
 
