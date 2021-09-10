@@ -1,5 +1,4 @@
-from sqlalchemy import Column, String
-
+from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from Natsuki.modules.sql import BASE, SESSION
 
 
