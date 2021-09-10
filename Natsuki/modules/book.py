@@ -33,7 +33,7 @@ async def _(event):
         return
     input_str = event.pattern_match.group(1)
     lool = 0
-    KkK = await event.reply("`searching for the book...`")
+    KkK = await event.reply("`searching for the book...📚`")
     lin = "https://b-ok.cc/s/"
     text = input_str
     link = lin + text
