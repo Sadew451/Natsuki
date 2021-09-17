@@ -82,3 +82,4 @@ cloudmersive_virus_api_client==3.0.1
 chromedriver==2.24.1
 
 apscheduler
+pygithub
