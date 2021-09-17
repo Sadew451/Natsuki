@@ -4,4 +4,4 @@ __help__ = """
  
  ❍ /contributors : contributors using this bot  
 """
-__mod_name__ = "/contributors"
+__mod_name__ = "contributors"
