@@ -77,6 +77,8 @@ $ python3 -m Natsuki
 [+] The Natsuki won't run without setting the mandatory vars.
 ```
 
+Natsuki 
+
 ## Special Credits
 - [Inukaasith](https://gitlab.com/inukaasith)
 - [TeamDaisyX](https://github.com/TeamDaisyX)
