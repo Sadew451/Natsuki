@@ -11,6 +11,6 @@ Powerful Abilities
 
 • Channel Music Play 🎵
 
-Developer [SADEW JAYASEKARA](https://t.me/Darkridersslk)
+Developer [SADEW JAYASEKARA](@Darkridersslk)
 """
 __mod_name__ = "About ⚡"
