@@ -129,6 +129,12 @@
          "required": false,
          "value": "1548967589"
       },
+    "BOT_ID": {
+      "description": "Tg bot id by ",
+      "value": "",
+      "required": true
+      
+      },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
