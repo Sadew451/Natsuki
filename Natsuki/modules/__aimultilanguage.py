@@ -362,4 +362,4 @@ hexzy AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
 """
 
-__mod_name__ = "Chatbot"
+__mod_name__ = "AI System"
