@@ -13,7 +13,7 @@ from pyrogram import filters
 
 from Natsuki import BOT_ID
 from Natsuki.helper_extra.aichat import add_chat, get_session, remove_chat
-from Natsuki.pyrogramee.pluginshelper import admins_only, edit_or_reply
+from Natsuki.pyrograme.pluginshelper import admins_only, edit_or_reply
 from Natsuki import pbot as hexzy
 
 translator = google_translator()
