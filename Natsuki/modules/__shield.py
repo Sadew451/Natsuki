@@ -15,7 +15,7 @@ from Natsuki import BOT_ID
 from Natsuki.config import get_int_key, get_str_key
 
 # from Natsuki.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from Natsuki.pyrogramee.telethonbasics import is_admin
+from Natsuki.pyrograme.telethonbasics import is_admin
 from Natsuki.events import register
 from Natsuki import MONGO_DB_URI 
 from pymongo import MongoClient
