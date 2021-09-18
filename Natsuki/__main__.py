@@ -95,7 +95,7 @@ buttons = [
 NATSUKI_IMG = "https://telegra.ph/file/a6281ecaae26667a13716.png"
 
 HELP_STRINGS = f"""
-*ALL Commands :* []()
+*All Commands :* [](🔥)
 
 🙋‍♀️ Every possibility of Natsuki is documentated here.
 🙋‍♀️ Click buttons to get Help.
