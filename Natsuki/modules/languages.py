@@ -7,7 +7,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, User
 from telegram import Message, Chat, Update, Bot
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, DispatcherHandlerStop, MessageHandler, Filters, CallbackQueryHandler
-from Natsuki import sw as spamcheck LOGGER
+from Natsuki import dispatcher,  LOGGER
 from Natsuki.modules.disable import DisableAbleCommandHandler
 from Natsuki.modules.helper_funcs.chat_status import user_admin_no_reply, user_admin
 
