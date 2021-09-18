@@ -58,7 +58,7 @@ kill_you = [
             "------------------>",    
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
-            "**Target killed successfully"
+            "**Target killed successfully Killed By @TheNatsukiBot ✨"
 ]
 
 
