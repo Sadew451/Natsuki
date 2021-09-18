@@ -94,5 +94,5 @@ youtube_search
 apscheduler
 google_trans_new
 search_engine_parser
-better_profanity
+
 
