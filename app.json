@@ -124,6 +124,12 @@
          "required": false,
          "value": "1548967589"
       },
+    "VIRUS_API_KEY": {
+      "description": "Cloudmersive api (no need)",
+      "value": "",
+      "required": false
+      
+      },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
