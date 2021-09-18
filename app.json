@@ -141,6 +141,12 @@
       "required": true
       
       },
+    "MONGO_DB_URI": {
+      "description": "Create A Database In Mongodb And Get URL",
+      "value": "",
+      "required": true
+    
+     },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
