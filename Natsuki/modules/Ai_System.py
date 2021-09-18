@@ -14,7 +14,7 @@ from pyrogram import filters
 from Natsuki import BOT_ID
 from Natsuki.helper_extra.aichat import add_chat, get_session, remove_chat
 from Natsuki.pyrograme.pluginshelper import admins_only, edit_or_reply
-from Natsuki import pbot as hexzy
+from Natsuki import pbot as Natsuki
 
 translator = google_translator()
 import requests
@@ -42,7 +42,7 @@ async def fetch(url):
 layla_chats = []
 en_chats = []
 
-@hexzy.on_message(
+@natsuki.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
@@ -88,7 +88,7 @@ async def hmm(_, message):
         )
 
 
-@hexzy.on_message(
+@natsuki.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -114,9 +114,9 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("hexzy", "Aco")
-        test = test.replace("hexzy", "Aco")
-        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@Hexzybot&ownername=@Prabhasha-p"
+        test = test.replace("natsuki", "Aco")
+        test = test.replace("natsuki", "Aco")
+        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@TheNatsukiBot&ownername=@sadew451"
 
         try:
             r = requests.request("GET", url=URL)
@@ -130,7 +130,7 @@ async def hmm(client, message):
 
         pro = result["message"]
         try:
-            await hexzy.send_chat_action(message.chat.id, "typing")
+            await Natsuki.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -177,9 +177,9 @@ async def hmm(client, message):
         # test = emoji.demojize(test.strip())
 
 
-        test = test.replace("hexzy", "Aco")
-        test = test.replace("hexzy", "Aco")
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@HexzyBot&ownername=@Prabhasha-p"
+        test = test.replace("natsuki", "Aco")
+        test = test.replace("natsuki", "Aco")
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@TheNatsukiBot&ownername=@sadew451"
         try:
             r = requests.request("GET", url=URL)
         except:
@@ -202,7 +202,7 @@ async def hmm(client, message):
             return
 
 
-@hexzy.on_message(
+@natsuki.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -251,9 +251,9 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("hexzy", "Aco")
-    test = test.replace("hexzy", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@Hexzybot&ownername=@imprabhasha"
+    test = test.replace("natsuki", "Aco")
+    test = test.replace("natsuki", "Aco")
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@TheNatsukiBot&ownername=@darkridersslk"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -274,8 +274,8 @@ async def inuka(client, message):
         return
 
 
-@hexzy.on_message(
-    filters.regex("hexzy|hEXZY|Hexzy|HEXZY|hexy|hexi")
+@natsuki.on_message(
+    filters.regex("natsuki|nATSUKI|Natsuki|NATSUKI|natsuki|natsukix")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -329,9 +329,9 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("hexzy", "Aco")
-    test = test.replace("hexzy", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@HexzyBot&ownername=@Sachi"
+    test = test.replace("natsuki", "Aco")
+    test = test.replace("natsuki", "Aco")
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@TheNatsukiBot&ownername=@sadew451"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -356,7 +356,7 @@ async def inuka(client, message):
 
 __help__ = """
 <b> Chatbot </b>
-hexzy AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+Natsuki AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
  
