@@ -86,4 +86,4 @@ __help__ = """
  ❍ /antiarab [on/off] : Enable/disable antiarabic mode:
 
 """
-__mod_name__ = "Remove BG"
+__mod_name__ = "Anti  Arbic "
