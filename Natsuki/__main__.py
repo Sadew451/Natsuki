@@ -70,25 +70,22 @@ I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your
 buttons = [
     [
         InlineKeyboardButton(
-            text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
-        ),
+            text="➕ Add Sophia to your Group ➕", url="t.me/Sophia?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="Source Code 🗒️", callback_data="source_"),
         InlineKeyboardButton(
-            text="Support Group 👥", url="https://t.me/NatsukiSupport_Official"
+            text="System Stats 💻", callback_data="stats_callback"
         ),
     ],
     [
+        InlineKeyboardButton(text="🙋‍♀️ Sophia News", url=f"https://t.me/dihanofficial"),
         InlineKeyboardButton(
-            text="Source 📋", url="Github.com/Sadew451"
-        ),
-        InlineKeyboardButton(
-            text="Command Help ❓", callback_data="help_back"
+            text="💬 Support Group", url=f"https://t.me/dihan_official"
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="➕ Add To Me Your Group ➕",
-            url="t.me/TheNatsukiBot?startgroup=true",
-        ),
+        InlineKeyboardButton(text="❓ Commands Help ", callback_data="help_back"),
     ],
 ]
 
