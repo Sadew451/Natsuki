@@ -95,10 +95,10 @@ buttons = [
 NATSUKI_IMG = "https://telegra.ph/file/a6281ecaae26667a13716.png"
 
 HELP_STRINGS = f"""
-*All Commands :* []()
+*𝗔𝗹𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 :* [](иαтѕυкι)
 
-🙋‍♀️ Every possibility of Natsuki is documentated here.
-🙋‍♀️ Click buttons to get Help.
+ [=] 𝘌𝘷𝘦𝘳𝘺 𝘱𝘰𝘴𝘴𝘪𝘣𝘪𝘭𝘪𝘵𝘺 𝘰𝘧 𝘕𝘢𝘵𝘴𝘶𝘬𝘪 𝘪𝘴 𝘥𝘰𝘤𝘶𝘮𝘦𝘯𝘵𝘢𝘵𝘦𝘥 𝘩𝘦𝘳𝘦.
+ [=] 𝘊𝘭𝘪𝘤𝘬 𝘣𝘶𝘵𝘵𝘰𝘯𝘴 𝘵𝘰 𝘨𝘦𝘵 𝘏𝘦𝘭𝘱.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
