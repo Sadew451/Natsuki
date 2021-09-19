@@ -79,3 +79,11 @@ ANTI_ARABIC = MessageHandler(
 
 dispatcher.add_handler(SETTING_HANDLER)
 dispatcher.add_handler(ANTI_ARABIC, group=ANTIARABIC_GROUPS)
+
+__help__ = """
+@TheNatsukiBot
+ 
+ ❍ /antiarab [on/off] : Enable/disable antiarabic mode:
+
+"""
+__mod_name__ = "Remove BG"
