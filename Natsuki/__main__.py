@@ -81,7 +81,7 @@ buttons = [
             text="Source 📋", url="Github.com/Sadew451"
         ),
         InlineKeyboardButton(
-            text="Command Help ❓", url="http://t.me/TheNatsukiBot?start=help"
+            text="Command Help ❓", callback_data="help_back"
         ),
     ],
     [
