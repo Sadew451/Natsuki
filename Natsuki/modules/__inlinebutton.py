@@ -79,6 +79,6 @@ async def line(client: Client, query: InlineQuery):
 menus = [
     InlineQueryResultArticle(title="Inline commands", description="Inline commands",
                              input_message_content=InputTextMessageContent("/inline")),
-    InlineQueryResultArticle(title="Start Bot", description="Start TheNatsukiBot",
+    InlineQueryResultArticle(title="Start", description="Start",
                              input_message_content=InputTextMessageContent("/start")),
 ]
