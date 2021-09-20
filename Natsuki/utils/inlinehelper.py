@@ -19,7 +19,7 @@ from pyrogram.types import (
 )
 from search_engine_parser import GoogleSearch
 
-from Natsuki import BOT_USERNAME, OWNER_ID, pbot,
+from Natsuki import BOT_USERNAME, OWNER_ID, pbot
 from Natsuki.utils.plh import convert_seconds_to_minutes as time_convert
 from Natsuki.utils.plh import fetch
 
