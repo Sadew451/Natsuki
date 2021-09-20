@@ -96,6 +96,8 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI")    
     BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
     OWNER_ID = os.environ.get("OWNER_ID", None)
+    OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
+    TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
 
     try:
         WHITELIST_CHATS = set(
