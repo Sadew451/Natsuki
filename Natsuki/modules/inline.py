@@ -93,7 +93,7 @@ __help__ = """
 __MODULE__ = "Inline Mode"
 __HELP__ = """
 ⚊❮❮❮❮ ｢INLINE BOT SERVICE」❯❯❯❯⚊
-[.](https://telegra.ph/file/7b406588473aa764e58db.jpg)
+[.]()
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline`
    >> **Syntax** <<
    
@@ -618,7 +618,7 @@ async def inline_query_handler(client, query):
                 Time Zones:- {tom}
                 Top Level Domain:- {lanester}
                 wikipedia:- {wiki}</b>
-                Gathered By Daisy X.</b>
+                Gathered By Natsuki.</b>
                 """
             results.append(
                 InlineQueryResultArticle(
@@ -884,7 +884,7 @@ async def inline_query_handler(client, query):
                 + app_link
                 + "'>View in Play Store</a>"
             )
-            app_details += "\n\n⚊❮❮❮❮ ｢@lkhitech」❯❯❯❯⚊"
+            app_details += "\n\n⚊❮❮❮❮ ｢@Natsuki_Updates」❯❯❯❯⚊"
             rip.append(
                 InlineQueryResultArticle(
                     title=f"Datails of {app_name}",
