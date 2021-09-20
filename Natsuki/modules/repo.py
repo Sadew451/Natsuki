@@ -12,7 +12,7 @@ BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton("Repository", url=f"https://github.com/Sadew451/Natsuki"),
         InlineKeyboardButton("Watch Tutorial ", url=f"https://youtu.be/YyiO6jdPzXg"),
       ],[
-        InlineKeyboardButton("Natsuki News", url="https://t.me/Natsuki_News"),
+        InlineKeyboardButton("Natsuki News", url="https://t.me/Natsuki_Updates"),
         InlineKeyboardButton("Natsuki Support", url="https://t.me/NatsukiSupport_Official"),
       ],[
         InlineKeyboardButton("Main Channel", url="https://t.me/SDBOTs_Inifinity"),
@@ -29,3 +29,4 @@ async def repo(pbot, update):
         disable_web_page_preview=True,
         quote=True
     )
+__mod_name__ = "Repo"
