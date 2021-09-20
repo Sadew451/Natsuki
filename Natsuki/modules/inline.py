@@ -135,7 +135,7 @@ __HELP__ = """
 """
 
 
-@app.on_message(filters.command("inline"))
+@app.on_message(filters.command("natsuki"))
 async def inline_help(_, message):
     await app.send_message(message.chat.id, text=__HELP__)
 
