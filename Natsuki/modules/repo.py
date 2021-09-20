@@ -29,4 +29,5 @@ async def repo(pbot, update):
         disable_web_page_preview=True,
         quote=True
     )
-__mod_name__ = "Repo"
+
+    __mod_name__ = "Repo"
