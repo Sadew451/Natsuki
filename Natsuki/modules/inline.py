@@ -1,4 +1,4 @@
-#Edited By Sadew
+#Edited By Sadew <https://github.com/sadew451>
 import datetime
 import re
 import time
