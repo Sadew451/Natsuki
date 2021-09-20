@@ -69,7 +69,7 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton(" 𝐌𝐚𝐢𝐧 𝐁𝐨𝐭 ", url="https://t.me/TheNatsukiBotBot"),
+        InlineKeyboardButton(" 𝐌𝐚𝐢𝐧 𝐁𝐨𝐭 ", url="https://t.me/TheNatsukiBot"),
         InlineKeyboardButton(" 𝗚𝗼 𝗜𝗻𝗹𝗶𝗻𝗲! ", switch_inline_query_current_chat=""),
     )
 
