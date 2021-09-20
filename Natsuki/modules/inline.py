@@ -1,3 +1,5 @@
+Edited By Sadew
+
 import datetime
 import re
 import time
@@ -51,7 +53,7 @@ class AioHttp:
 __mod_name__ = "Inline Mode"
 __help__ = """
 ⚊❮❮❮❮ ｢INLINE BOT SERVICE」❯❯❯❯⚊
-**I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline**[NATSUKI.](https://telegra.ph/file/c008b649c882db7e769ce.jpg)
+**I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline**[.]()
 ──「 Syntax 」──
 @TheNatsukibot [command] [query]
 ╔ **Commands Available**
