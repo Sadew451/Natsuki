@@ -9,14 +9,14 @@ REPO_TEXT = "**A Powerful BOT to Make Your Groups Secured and Organized ! \n\n�
   
 BUTTONS = InlineKeyboardMarkup(
       [[
-        InlineKeyboardButton("Repository", url=f"https://github.com/Sadew451/Natsuki"),
-        InlineKeyboardButton("Watch Tutorial ", url=f"https://youtu.be/YyiO6jdPzXg"),
+        InlineKeyboardButton("Repository 📇", url=f"https://github.com/Sadew451/Natsuki"),
+        InlineKeyboardButton("Watch Tutorial 👀", url=f"https://youtu.be/YyiO6jdPzXg"),
       ],[
-        InlineKeyboardButton("Natsuki News", url="https://t.me/Natsuki_Updates"),
-        InlineKeyboardButton("Natsuki Support", url="https://t.me/NatsukiSupport_Official"),
+        InlineKeyboardButton("Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"),
+        InlineKeyboardButton("Natsuki Support 💬", url="https://t.me/NatsukiSupport_Official"),
       ],[
-        InlineKeyboardButton("Main Channel", url="https://t.me/SDBOTs_Inifinity"),
-        InlineKeyboardButton("Developer", url="https://t.me/TeamNatsuki"),
+        InlineKeyboardButton("Main Channel 🔥", url="https://t.me/SDBOTs_Inifinity"),
+        InlineKeyboardButton("[DEV]", url="https://t.me/TeamNatsuki"),
       ]]
     )
   
@@ -29,5 +29,3 @@ async def repo(pbot, update):
         disable_web_page_preview=True,
         quote=True
     )
-
-    __mod_name__ = "Repo"
