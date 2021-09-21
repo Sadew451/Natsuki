@@ -92,7 +92,7 @@ pornhub_api
 youtube_search
 
 apscheduler
-google_trans_new
+
 
 
 
