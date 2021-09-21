@@ -72,7 +72,7 @@ heroku3==4.2.3
 redis
 aioredis==1.3.1 # Redis memery storage fom aiogram
 pymongo
-motor
+
 
 
 
