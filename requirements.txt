@@ -87,7 +87,7 @@ pygithub
 bs4
 html2text
 bing_image_downloader 
-search_engine_parser
+
 
 
 
