@@ -84,7 +84,7 @@ chromedriver==2.24.1
 apscheduler
 pygithub
 
-bs4
+
 
 
 
