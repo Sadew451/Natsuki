@@ -92,13 +92,16 @@ buttons = [
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/a6281ecaae26667a13716.png"
+ANKIVECTOR_IMG = "https://telegra.ph/file/75579c20520fc79f5b68d.jpg"
 
 HELP_STRINGS = f"""
-*𝗔𝗹𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 :* [](иαтѕυкι)
-
- [=] 𝘌𝘷𝘦𝘳𝘺 𝘱𝘰𝘴𝘴𝘪𝘣𝘪𝘭𝘪𝘵𝘺 𝘰𝘧 𝘕𝘢𝘵𝘴𝘶𝘬𝘪 𝘪𝘴 𝘥𝘰𝘤𝘶𝘮𝘦𝘯𝘵𝘢𝘵𝘦𝘥 𝘩𝘦𝘳𝘦.
- [=] 𝘊𝘭𝘪𝘤𝘬 𝘣𝘶𝘵𝘵𝘰𝘯𝘴 𝘵𝘰 𝘨𝘦𝘵 𝘏𝘦𝘭𝘱.
+*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+✪ /start: Starts me! You've probably already used this.
+✪ /help: Click this, I'll let you know about myself!
+✪ /donate: You can support my creater using this command.
+✪ /settings: 
+   ✪ in PM: will send you your settings for all supported modules.
+   ✪ in a Group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
