@@ -4,8 +4,8 @@ from Natsuki.decorator import register
 from .utils.disable import disableable_dec
 from .utils.message import get_args_str
 
-@register(cmds="rose")
-@disableable_dec("rose")
+@register(cmds="Natsuki")
+@disableable_dec("Natsuki")
 async def _(message):
     j = "Hello there my name is Natsuki"
     await message.reply(j)
