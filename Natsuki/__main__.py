@@ -92,16 +92,16 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/75579c20520fc79f5b68d.jpg"
+NATSUKI_IMG = "https://telegra.ph/file/91697b60fbbf55562febb.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
-✪ /settings: 
-   ✪ in PM: will send you your settings for all supported modules.
-   ✪ in a Group: will redirect you to pm, with all that chat's settings.
+*Main Commands :* [🤖](https://telegra.ph/file/91697b60fbbf55562febb.jpg)
+/start: Starts me! You've probably already used this.
+/help: Click this, I'll let you know about myself!
+/donate: You can support my creater using this command.
+/settings: 
+   in PM: will send you your settings for all supported modules.
+   in a Group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
