@@ -61,7 +61,7 @@ wget
 youtube_search
 #ImageEditor
 glitch_this
-NumPy
+
 
 
 
