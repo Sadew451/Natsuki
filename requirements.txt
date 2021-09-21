@@ -63,7 +63,6 @@ youtube_search
 glitch_this
 NumPy
 opencv-python-headless
-Pillow
 
 
 
