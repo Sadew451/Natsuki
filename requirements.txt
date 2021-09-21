@@ -65,7 +65,7 @@ NumPy
 opencv-python-headless
 Pillow
 envparse
-loguru
+
 
 
 
