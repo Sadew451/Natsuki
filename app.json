@@ -40,25 +40,7 @@
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
-      
-      },
-    "HEROKU_APP_NAME": {
-      "description": "Your heroku app name (not compulsory)",
-      "value": "",
-      "required": false   
-      
-      },
-    "REM_BG_API_KEY": {
-      "description": "remove.bg api (no need)",
-      "value": "",
-      "required": false
-      
-      },
-    "HEROKU_API_KEY": {
-      "description": "Your heroku api key (not compulsory)",
-      "value": "",
-      "required": false  
+         "value": "
     
       },    
       "SQLALCHEMY_DATABASE_URI": {
@@ -123,29 +105,13 @@
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
          "value": "1548967589"
-      },
-    "VIRUS_API_KEY": {
-      "description": "Cloudmersive api (no need)",
-      "value": "",
-      "required": false
-      
+     
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
          "value": "1548967589"
-      },
-    "BOT_ID": {
-      "description": "Tg bot id by ",
-      "value": "",
-      "required": true
-      
-      },
-    "MONGO_DB_URI": {
-      "description": "Create A Database In Mongodb And Get URL",
-      "value": "",
-      "required": true
-    
+     
      },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
