@@ -1,6 +1,6 @@
 <h1 align="center"><b>✨ Natsuki ✨</b></h1>
 
-## ✨ ARE YOU OKAY BABY I'M [NATSUKI](https://t.me/TheNatsukibot) ✨
+##  Are You Okay Baby I'm [NATSUKI](https://t.me/TheNatsukibot) 
 
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is public. 
 
@@ -15,7 +15,7 @@
   <a href="https://github.com/Sadew451/Natsuki/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/NatsukiSupport_Official"><img src="https://telegra.ph/file/234006a42cfd587312106.png" width="400"></a></p>
+<p align="center"><a href="https://t.me/NatsukiSupport_Official"><img src="https://telegra.ph/file/12a67bfae430322ceb2e8.jpg" width="400"></a></p>
 <p align="center">
     <a href="https://app.codacy.com/manual/sadew451/Natsuki/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
     <a href="https://github.com/sadew451/Natsuki"> <img src="https://img.shields.io/github/repo-size/sadew451/Natsuki?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
