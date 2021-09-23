@@ -1,7 +1,8 @@
-<h1 align="center"><b>✨ Natsuki ✨</b></h1> ![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
-
+<h1 align="center"><b>✨ Natsuki ✨</b></h1> 
 
 ##  Are You Okay Baby I'm [NATSUKI](https://t.me/TheNatsukibot) 
+![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
+
 
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is public. 
 
