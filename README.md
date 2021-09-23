@@ -66,7 +66,7 @@
 <a href="https://t.me/NatsukiSupport_Official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/Natsuki_updates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
-### Self-hosting (For Devs) ⚔
+### Self-hosting (For Devs) 😎
 ```sh
 # Install Git First (apt-instll git)
 $ git clone https://github.com/Sadew451/Natsuki
@@ -80,7 +80,7 @@ $ pip3 install -r requirements.txt
 $ python3 -m Natsuki
 ```
 
-### Mandatory Vars 📒
+### Mandatory Vars 🙋‍♀️
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
     [-] APP_ID:   You can get this value from @SDMyTgOrgBot
