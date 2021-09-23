@@ -20,6 +20,7 @@
     <img src="https://img.shields.io/github/issues/Sadew451/Natsuki?style=for-the-badge&logo=appveyor" alt="Issues">
     <img src="https://img.shields.io/github/forks/Sadew451/Natsuki?style=for-the-badge&logo=appveyor" alt="Forks">
     <img src="https://img.shields.io/github/stars/Sadew451/Natsuki?style=for-the-badge&logo=appveyor" alt="Stars">
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <h3 align="center"> 
