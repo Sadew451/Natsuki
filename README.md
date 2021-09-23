@@ -93,24 +93,6 @@ $ python3 -m Natsuki
     [-] MONGO_DB': 'Natsuki
 [+] The Natsuki won't run without setting the mandatory vars.
 ```
-# Pypi package Repo upgrade
-RUN pip3 install --upgrade pip setuptools
-
-# Copy Python Requirements to /root/Natsuki
-RUN git clone -b shiken https://github.com/Sadew451/Natsuki /root/Natsuki
-WORKDIR /root/Natsuki
-
-#Copy config file to /root/Natsuki/Natsuki
-COPY ./Natsuki/sample_config.py ./Natsuki/config.py* /root/Natsuki/Natsuki/
-
-ENV PATH="/home/bot/bin:$PATH"
-
-# Install requirements
-RUN pip3 install -U -r requirements.txt
-
-# Starting Worker
-CMD ["python3","-m","Natsuki"]
-
 
 ## Special Credits
 - [Inukaasith](https://gitlab.com/inukaasith)
