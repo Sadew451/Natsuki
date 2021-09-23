@@ -39,7 +39,6 @@
     <a href="https://github.com/sadew451/Natsuki"> <img src="https://img.shields.io/github/repo-size/sadew451/Natsuki?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki/commits/SadewJayasekara"> <img src="https://img.shields.io/github/last-commit/sadew451/Natsuki?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki/issues"> <img src="https://img.shields.io/github/issues/sadew451/Natsuki?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/sadew451/Natsuki/network/members"> <img src="https://img.shields.io/github/forks/sadew451/Natsuki?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
 
 </p>
 
