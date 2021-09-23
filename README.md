@@ -1,12 +1,12 @@
 <h1 align="center"><b>✨ Natsuki ✨</b></h1> 
 
 ##  Are You Okay Baby I'm [NATSUKI](https://t.me/TheNatsukibot) 
-![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
-
 
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is public. 
 
 ## ⚡ (It is no longer based on this source code. The completely rewritten bot available now on telegram)
+
+![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
 
 <p align="center">
     <a href="https://python.org">
