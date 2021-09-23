@@ -40,7 +40,7 @@
     <a href="https://github.com/sadew451/Natsuki/commits/SadewJayasekara"> <img src="https://img.shields.io/github/last-commit/sadew451/Natsuki?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki/issues"> <img src="https://img.shields.io/github/issues/sadew451/Natsuki?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/sadew451/Natsuki/network/members"> <img src="https://img.shields.io/github/forks/sadew451/Natsuki?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+
 </p>
 
 > Thanks to everyone who starred Natsuki, That is the greatest pleasure we have !
