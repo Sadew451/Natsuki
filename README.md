@@ -36,10 +36,8 @@
 <p align="center"><a href="https://t.me/NatsukiSupport_Official"><img src="https://telegra.ph/file/12a67bfae430322ceb2e8.jpg" width="400"></a></p>
 <p align="center">
     <a href="https://app.codacy.com/manual/sadew451/Natsuki/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/sadew451/Natsuki"> <img src="https://img.shields.io/github/repo-size/sadew451/Natsuki?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/sadew451/Natsuki/commits/SadewJayasekara"> <img src="https://img.shields.io/github/last-commit/sadew451/Natsuki?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/sadew451/Natsuki/issues"> <img src="https://img.shields.io/github/issues/sadew451/Natsuki?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-
+   <a href="https://github.com/sadew451/Natsuki/commits/SadewJayasekara"> <img src="https://img.shields.io/github/last-commit/sadew451/Natsuki?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+  
 </p>
 
 > Thanks to everyone who starred Natsuki, That is the greatest pleasure we have !
