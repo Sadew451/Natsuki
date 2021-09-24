@@ -10,7 +10,6 @@ APP_HASH: ""
 
 MONGO_URI: "mongodb+srv://dfsdfX:dfsfdX@cluster0.df4j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
-MONGO_URI2: ""
 
 API_PORT': 8080
 
