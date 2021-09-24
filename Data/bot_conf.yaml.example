@@ -24,7 +24,6 @@ SUDO_USERS: ""
 
 DATABASE_URL: ""
 TIME_API_KEY: ""
-REM_BG_API_KEY: ""
 ARQ_API: ""
 
 # Advanced
