@@ -56,8 +56,8 @@
 
 ## Avaiilable on Telegram as [@TheNatsukiBot](https://t.me/thenatsukibot)
 
-# 🏃‍♂️ Easy Deploy 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Natsuki.git)
+# 🏃‍♂️ Deploy 
+## Connect Github Cant Deploy On Url
 
 <a href="https://www.youtube.com/channel/UCdSBUUQ1v0_IIElBR_1B72w"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
