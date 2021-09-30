@@ -61,4 +61,5 @@ wget
 youtube_search
 
 Pillow
+telethon==1.16.4
 
