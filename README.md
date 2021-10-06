@@ -24,6 +24,9 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
+[![Sparkline](https://stars.medv.io/Teamultroid/Natsuki.svg)](https://stars.medv.io/Sadew451/Natsuki)
+----
+
 <img align="right" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/155/open-book_1f4d6.png">
 
 <h3 align="center"> 
