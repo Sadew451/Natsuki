@@ -254,7 +254,7 @@ def error_handler(update, context):
 
     # Build the message with some markup and additional information about what happened.
     message = (
-        "An exception was raised while handling an update\n"
+        "An exception was raised while handling an update🐞\n"
         "<pre>update = {}</pre>\n\n"
         "<pre>{}</pre>"
     ).format(
