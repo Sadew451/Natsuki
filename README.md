@@ -3,7 +3,7 @@
 
 ##  Are You Okay Baby I'm [Natsuki](https://t.me/TheNatsukibot) 
  
-## Unmaintained. `The new repo of` [@TheNatsukiBot](https://t.me/TheNatsukibot) is `private`. 
+## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is `private`. 
 
 ## ⚡ (It is no longer based on this source code. The completely rewritten bot available now on telegram)
 
