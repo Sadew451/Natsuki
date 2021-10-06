@@ -24,6 +24,24 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
+<table>
+  <tr>
+    <th align="center">For user accounts</th>
+    <th align="center">For organization accounts</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img alt="" width="400" src="https://github.com/sadew451/sadew451/blob/master/metrics.classic.svg">
+      <img width="900" height="1" alt="">
+    </td>
+    <td align="center">
+      <img alt="" width="400" src="https://github.com/sadew451/sadew451/blob/master/metrics.organization.svg">
+      <img width="900" height="1" alt="">
+    </td>
+  </tr>
+</table>
+
+
 <img align="right" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/155/open-book_1f4d6.png">
 
 <h3 align="center"> 
