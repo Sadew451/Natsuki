@@ -24,7 +24,7 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-[![Sparkline](https://stars.medv.io/Teamultroid/Ultroid.svg)](https://stars.medv.io/TeamUltroid/Ultroid)
+[![Sparkline](https://stars.medv.io/sadew451/natsuki.svg)](https://stars.medv.io/sadew451/natsuki)
 ----
 ----
 
