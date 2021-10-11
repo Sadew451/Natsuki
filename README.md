@@ -48,7 +48,7 @@
 
 > Thanks to everyone who starred Natsuki, That is the greatest pleasure we have !
 
-## https://SADEW451.GITHUB.IO/NATSUKI.STUDIO/
+## https://sadew451.github.io/Natsuki.Studio/
 
 # 🧙‍♀️ Deploy Guide
 
