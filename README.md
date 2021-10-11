@@ -2,7 +2,7 @@
 
 # License
 
-![](https://www.gnu.org/graphics/gnu-or-later.png)
+![](https://www.gnu.org/graphics/gnu3-or-later.png)
 
 ##  Are You Okay Baby I'm [Natsuki](https://t.me/TheNatsukibot) 
  
