@@ -60,7 +60,7 @@
 
 ## TeamNatsuki
 
-## Avaiilable on Telegram as [@TheNatsukiBot](https://t.me/thenatsukibot)
+## Available on Telegram as [@TheNatsukiBot](https://t.me/thenatsukibot)
 
 # 🏃‍♂️ Deploy 
 ## Connect Github Cant Deploy On Url
