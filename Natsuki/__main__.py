@@ -111,7 +111,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKARA](t.me/Darkridersslk)"""
+Support them  [SADEW JAYASEKARA](t.me/IM_SADEW)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
