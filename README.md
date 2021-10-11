@@ -1,5 +1,9 @@
 <h1 align="center"><b>❤️ Natsuki ❤️</b></h1>
 
+# License
+
+![](https://www.gnu.org/graphics/gnu-or-later.png)
+
 ##  Are You Okay Baby I'm [Natsuki](https://t.me/TheNatsukibot) 
  
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is `private`. 
