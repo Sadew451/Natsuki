@@ -1,7 +1,5 @@
 <h1 align="center"><b>❤️ Natsuki ❤️</b></h1>
 
-> ## https://sadew451.github.io/Natsuki.Studio/
-
 ##  Are You Okay Baby I'm [Natsuki](https://t.me/TheNatsukibot) 
  
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is `private`. 
@@ -28,6 +26,7 @@
 
 ![GitHub](https://img.shields.io/github/license/Sadew451/Natsuki)
 
+> ## https://sadew451.github.io/Natsuki.Studio/ <
 
 <img align="right" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/155/open-book_1f4d6.png">
 
