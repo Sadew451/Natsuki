@@ -105,7 +105,8 @@ $ python3 -m Natsuki
 - [Damantha126](https://github.com/Damantha126)
 - [AlbertEinsteinTG](https://github.com/AlbertEinsteinTG)
 - [ImJanindu](https://github.com/ImJanindu) 
-- [AioGram Project group](https://github.com/aiogram) 
+- [AioGram Project group](https://github.com/aiogram)
+- [darkphoenix](https://github.com/darkphoenix2601) 
 
 All other credits mentioned on top of scripts
 
