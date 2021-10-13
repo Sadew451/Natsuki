@@ -6,7 +6,6 @@
 
 ## ⚡ It is no longer based on this source code. The completely rewritten bot available now on telegram
 
-![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
 <p align="center">
     <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
@@ -94,10 +93,10 @@ $ python3 -m Natsuki
     [-] TOKEN: Get from botfarther
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
-    [-] MONGO_PORT: 27017
-    [-] MONGO_DB': 'Natsuki
 [+] The Natsuki won't run without setting the mandatory vars.
 ```
+
+![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
 
 ## Special Credits
 - [Inukaasith](https://gitlab.com/inukaasith)
