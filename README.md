@@ -94,7 +94,6 @@ $ python3 -m Natsuki
     [-] OWNER_ID: ur id
 [+] The Natsuki won't run without setting the mandatory vars.
 ```
-
 ![Contributors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
 
 ## Special Credits
