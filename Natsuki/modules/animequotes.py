@@ -4,11 +4,11 @@ import html
 import random
 import time
 
-from Cutiepii_Robot import dispatcher
-from Cutiepii_Robot.modules.disable import DisableAbleCommandHandler
+from Natsuki import dispatcher
+from Natsuki.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async, CallbackQueryHandler
-from Cutiepii_Robot.modules.helper_funcs.chat_status import (is_user_admin)
-from Cutiepii_Robot.modules.helper_funcs.extraction import extract_user
+from Natsuki.modules.helper_funcs.chat_status import (is_user_admin)
+from Natsuki.modules.helper_funcs.extraction import extract_user
 from telegram import ParseMode, Update, InlineKeyboardMarkup, InlineKeyboardButton, replymarkup, ChatPermissions
 from telegram.error import BadRequest
 
