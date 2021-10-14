@@ -113,3 +113,5 @@ Anything missing kindly let us know at [Natsuki Support](https://t.me/NatsukiSup
 #### • SADEW JAYASEKARA    »»  <a href="https://github.com/SADEW451" alt="SADEW451"> <img src="https://img.shields.io/badge/SADEW451-90302f?logo=github" /></a> (OWNER)
 #### • DAMANTHA JASINGHA  »»  <a href="https://github.com/DAMANTHA126" alt="DAMANTHAJASINGHA"> <img src="https://img.shields.io/badge/DAMANTHA126-82CAFA?logo=github" /></a> (DEV)
 #### • THENULA SENEVIRATHNA »»  <a href="https://T.me/Thenula66" alt="THENULA SENEVIRATHNA"></a> (DEV).
+
+<a href="https://github.com/sadew451/natsuki/graphs/contributors"><img src="https://opencollective.com/sadew451natsuki/contributors.svg?width=890&button=false" /></a>
