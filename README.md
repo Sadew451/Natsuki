@@ -108,7 +108,6 @@ All other credits mentioned on top of scripts
 
 Anything missing kindly let us know at [Natsuki Support](https://t.me/NatsukiSupport_Official) or simply submit a pull request on the readme.
 
-
 ## Devs & Contributors
 
 #### • SADEW JAYASEKARA    »»  <a href="https://github.com/SADEW451" alt="SADEW451"> <img src="https://img.shields.io/badge/SADEW451-90302f?logo=github" /></a> (OWNER)
