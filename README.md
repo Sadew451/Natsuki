@@ -83,7 +83,6 @@ $ pip3 install -r requirements.txt
 # Start Bot 
 $ python3 -m Natsuki
 ```
-
 ### Mandatory Vars 🙋‍♀️
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
