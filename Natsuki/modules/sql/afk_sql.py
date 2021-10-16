@@ -40,44 +40,50 @@ def check_afk_status(user_id):
 
 def set_afk(user_id, reason=""):
     with INSERTION_LOCK:
-        curr = SESSION.query(AFK).get(user_id)
-        if not curr:
-            curr = AFK(user_id, reason, True)
-        else:
-            curr.is_afk = True
+        try:
+            curr = SESSION.query(AFK).get(user_id)
+            if not curr:
+                curr = AFK(user_id, reason, True)
+            else:
+                curr.is_afk = True
 
-        AFK_USERS[user_id] = reason
+            AFK_USERS[user_id] = reason
 
-        SESSION.add(curr)
-        SESSION.commit()
+            SESSION.add(curr)
+            SESSION.commit()
+       finally:
+        SESSION.close()
 
 
 def rm_afk(user_id):
     with INSERTION_LOCK:
-        curr = SESSION.query(AFK).get(user_id)
-        if curr:
-            if user_id in AFK_USERS:  # sanity check
-                del AFK_USERS[user_id]
-
-            SESSION.delete(curr)
-            SESSION.commit()
-            return True
-
-        SESSION.close()
-        return False
+        try:
+            curr = SESSION.query(AFK).get(user_id)
+            if curr:
+                if user_id in AFK_USERS:  # sanity check
+                    del AFK_USERS[user_id]
+                SESSION.delete(curr)
+                SESSION.commit()
+                return True
+            return False
+        finally:
+            SESSION.close()
 
 
 def toggle_afk(user_id, reason=""):
     with INSERTION_LOCK:
-        curr = SESSION.query(AFK).get(user_id)
-        if not curr:
-            curr = AFK(user_id, reason, True)
-        elif curr.is_afk:
-            curr.is_afk = False
-        elif not curr.is_afk:
-            curr.is_afk = True
-        SESSION.add(curr)
-        SESSION.commit()
+        try:
+            curr = SESSION.query(AFK).get(user_id)
+            if not curr:
+                curr = AFK(user_id, reason, True)
+            elif curr.is_afk:
+                curr.is_afk = False
+            elif not curr.is_afk:
+                curr.is_afk = True
+            SESSION.add(curr)
+            SESSION.commit()
+       finally:
+        SESSION.close()
 
 
 def __load_afk_users():
