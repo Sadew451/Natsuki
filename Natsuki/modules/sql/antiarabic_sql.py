@@ -35,22 +35,30 @@ def chat_antiarabic(chat_id: Union[str, int]) -> bool:
 
 def set_chat_setting(chat_id: Union[int, str], setting: bool):
     with CHAT_LOCK:
-        chat_setting = SESSION.query(AntiArabicChatSettings).get(str(chat_id))
-        if not chat_setting:
-            chat_setting = AntiArabicChatSettings(chat_id)
+        try:
+            chat_setting = SESSION.query(AntiArabicChatSettings).get(str(chat_id))
+            if not chat_setting:
+                chat_setting = AntiArabicChatSettings(chat_id)
 
-        chat_setting.antiarabic = setting
-        SESSION.add(chat_setting)
-        SESSION.commit()
+            chat_setting.antiarabic = setting
+            SESSION.add(chat_setting)
+            SESSION.commit()
+        finally:
+            SESSION.close()
+
+        
 
 
 def migrate_chat(old_chat_id, new_chat_id):
     with CHAT_LOCK:
-        chat_notes = (
-            SESSION.query(AntiArabicChatSettings)
-            .filter(AntiArabicChatSettings.chat_id == str(old_chat_id))
-            .all()
-        )
-        for note in chat_notes:
-            note.chat_id = str(new_chat_id)
-        SESSION.commit()
+        try:
+            chat_notes = (
+                SESSION.query(AntiArabicChatSettings)
+                .filter(AntiArabicChatSettings.chat_id == str(old_chat_id))
+                .all()
+            )
+            for note in chat_notes:
+                note.chat_id = str(new_chat_id)
+            SESSION.commit()
+        finally:
+            SESSION.close()
