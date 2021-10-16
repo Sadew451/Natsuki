@@ -103,6 +103,7 @@ $ python3 -m Natsuki
 - [AlbertEinsteinTG](https://github.com/AlbertEinsteinTG)
 - [ImJanindu](https://github.com/ImJanindu) 
 - [darkphoenix](https://github.com/darkphoenix2601) 
+- [M.Furkan](https://github.com/muhammedfurkan)
 
 All other credits mentioned on top of scripts
 
