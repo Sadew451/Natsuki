@@ -38,39 +38,49 @@ INSERTION_LOCK = threading.RLock()
 
 
 def get_user_me_info(user_id):
-    userinfo = SESSION.query(UserInfo).get(user_id)
-    SESSION.close()
-    if userinfo:
-        return userinfo.info
-    return None
+    try:
+        userinfo = SESSION.query(UserInfo).get(user_id)
+        if userinfo:
+            return userinfo.info
+        return None
+    finally:
+        SESSION.close()
 
 
 def set_user_me_info(user_id, info):
     with INSERTION_LOCK:
-        userinfo = SESSION.query(UserInfo).get(user_id)
-        if userinfo:
-            userinfo.info = info
-        else:
-            userinfo = UserInfo(user_id, info)
-        SESSION.add(userinfo)
-        SESSION.commit()
+        try:
+            userinfo = SESSION.query(UserInfo).get(user_id)
+            if userinfo:
+                userinfo.info = info
+            else:
+                userinfo = UserInfo(user_id, info)
+            SESSION.add(userinfo)
+            SESSION.commit()
+        finally:
+            SESSION.close()
 
 
 def get_user_bio(user_id):
-    userbio = SESSION.query(UserBio).get(user_id)
-    SESSION.close()
-    if userbio:
-        return userbio.bio
-    return None
+    try:
+        userbio = SESSION.query(UserBio).get(user_id)
+        if userbio:
+            return userbio.bio
+        return None
+    finally:
+        SESSION.close()
 
 
 def set_user_bio(user_id, bio):
     with INSERTION_LOCK:
-        userbio = SESSION.query(UserBio).get(user_id)
-        if userbio:
-            userbio.bio = bio
-        else:
-            userbio = UserBio(user_id, bio)
+        try:
+            userbio = SESSION.query(UserBio).get(user_id)
+            if userbio:
+                userbio.bio = bio
+            else:
+                userbio = UserBio(user_id, bio)
 
-        SESSION.add(userbio)
-        SESSION.commit()
+            SESSION.add(userbio)
+            SESSION.commit()
+        finally:
+            SESSION.close()
