@@ -1,3 +1,5 @@
+#    Project By TeamNatsuki
+
 __help__ = """
 ** GPS **
  - /gps <Place> : Show Location on a map
