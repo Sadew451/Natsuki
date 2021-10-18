@@ -1,3 +1,5 @@
+#    Project By TeamNatsuki
+
 __help__ = """
 *  • Groups and channels Voice Chat Music Play 🎧  *
 1) Make bot admin (Group and in channel if use cplay)
