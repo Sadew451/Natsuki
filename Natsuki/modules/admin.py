@@ -1,3 +1,5 @@
+#    Project By TeamNatsuki
+
 import html
 
 from telegram import ParseMode, Update
