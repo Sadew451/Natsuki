@@ -51,7 +51,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Natsuki.git)
 
 
-# 🧙‍♀️ Deploy Guide
+# Deploy Guide
 
 ## Complete guide on deploying @TheNatsukiBot's clone on Heroku.
 
