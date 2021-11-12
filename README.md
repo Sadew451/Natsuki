@@ -1,6 +1,6 @@
 <h1 align="center"><b><b>❤️ Natsuki ❤️</b></b></h1>
 
-##  Are You Okay Baby I'm [Natsuki](https://t.me/TheNatsukibot) 
+##  Fixed I'm [Natsuki](https://t.me/TheNatsukibot) 
  
 ## Unmaintained. The new repo of [@TheNatsukiBot](https://t.me/TheNatsukibot) is `private`. 
 
@@ -47,7 +47,8 @@
 
 > Thanks to everyone who starred Natsuki, That is the greatest pleasure we have !
 
-### Deployment
+### Deployment Dont Deploy on this URL `Deploy on Brach`
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Natsuki.git)
 
 
@@ -92,7 +93,6 @@ $ python3 -m Natsuki
 [+] Make Sure You Add All These Mandatory Vars. 
     [-] APP_ID:   You can get this value from @SDMyTgOrgBot
     [-] APP_HASH :   You can get this value from @SDMyTgOrgBot
-    [-] MONGO_URI : Your Mongo DB DataBase Url. .
     [-] TOKEN: Get from botfarther
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
