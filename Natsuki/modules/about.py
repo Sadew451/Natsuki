@@ -13,7 +13,7 @@ Powerful Abilities
 
 • Channel Music Play 🎵
 
-Developer [SADEW JAYASEKARA](https://t.me/Darkridersslk)
+Developer [SADEW JAYASEKARA](https://t.me/Itz_Sadew)
 
 Support Group [Support](https://t.me/NatsukiSupport_Official)
 
