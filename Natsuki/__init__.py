@@ -186,9 +186,8 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
 
 print("+===============================================================+")
-print("|                           N̲A̲T̲S̲U̲K̲I̲                             |")
+print("|                           NATSUKI                             |")
 print("+===============+===============+===============+===============+")
-print("NATSUKI VERSION")
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("saitama", API_ID, API_HASH)
 pbot = Client("Natsuki", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
