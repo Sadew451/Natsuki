@@ -186,7 +186,7 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
 
 print("+===============================================================+")
-print("|                           NATSUKI                             |")
+print("|                           N̲A̲T̲S̲U̲K̲I̲                             |")
 print("+===============+===============+===============+===============+")
 print("NATSUKI VERSION")
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
