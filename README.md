@@ -120,3 +120,10 @@ Anything missing kindly let us know at [Natsuki Support](https://t.me/NatsukiSup
 #### • SADEW JAYASEKARA    »»  <a href="https://github.com/SADEW451" alt="SADEW451"> <img src="https://img.shields.io/badge/SADEW451-90302f?logo=github" /></a> (OWNER)
 #### • DAMANTHA JASINGHA  »»  <a href="https://github.com/DAMANTHA126" alt="DAMANTHAJASINGHA"> <img src="https://img.shields.io/badge/DAMANTHA126-82CAFA?logo=github" /></a> (DEV)
  
+## All who helped at a glance 
+
+> This project exists thanks to these awesome developers and their codes and contributions.
+![Supportors](https://contrib.rocks/image?repo=Deshadeeth-Thisarana/Shadow-Old)
+
+> And credits goes to all who supported, all who helped and API & environmental equirement package devs and all projects helped in making this project.
+> Special thanks to you for using bot
