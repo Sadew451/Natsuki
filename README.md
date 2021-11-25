@@ -123,7 +123,7 @@ Anything missing kindly let us know at [Natsuki Support](https://t.me/NatsukiSup
 ## All who helped at a glance 
 
 > This project exists thanks to these awesome developers and their codes and contributions.
-![Supportors](https://contrib.rocks/image?repo=Deshadeeth-Thisarana/Shadow-Old)
+![Supportors](https://contrib.rocks/image?repo=Sadew451/Natsuki)
 
 > And credits goes to all who supported, all who helped and API & environmental equirement package devs and all projects helped in making this project.
 > Special thanks to you for using bot
